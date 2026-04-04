@@ -11,16 +11,17 @@
 <style>
 
 body{
-background: linear-gradient(135deg,#ff9a9e,#fad0c4,#fbc2eb,#a6c1ee);
+background: linear-gradient(135deg,#050404,#fad0c4,#fbc2eb,#a6c1ee);
 min-height:100vh;
 display:flex;
 align-items:center;
 justify-content:center;
 font-family:Arial;
+font-weight:bold;
 }
 
 .game-container{
-background:white;
+background:rgb(241, 239, 75);
 padding:30px;
 border-radius:15px;
 box-shadow:0 10px 20px rgba(0,0,0,0.2);
@@ -30,7 +31,7 @@ text-align:center;
 .choice-btn{
 font-size:20px;
 padding:15px;
-border-radius:10px;
+border-radius:8px;
 transition:0.3s;
 }
 
@@ -61,7 +62,7 @@ font-size:18px;
 <div class="container">
 <div class="game-container col-md-6 mx-auto">
 
-<h1 class="text-primary mb-3">Rock Paper Scissors</h1>
+<h1 class="text-primary fw-bold mb-3">Rock Paper Scissors</h1>
 <p class="text-muted">User vs Computer</p>
 
 <!-- SCOREBOARD -->
@@ -84,7 +85,7 @@ Computer Score: <span id="computerScore">0</span>
 
 <!-- USER & COMPUTER DISPLAY -->
 
-<p id="userChoice" class="choice-display">
+<p id="userChoice" class="choice-display ">
 👤 User: -
 </p>
 
